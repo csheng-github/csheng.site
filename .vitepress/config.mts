@@ -13,6 +13,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     nav: [
+      { text: '首页', link: '/' },
       { text: '素材', link: '/docs/prepare' },
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
