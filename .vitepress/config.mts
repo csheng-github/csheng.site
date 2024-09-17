@@ -6,7 +6,7 @@ export default defineConfig({
   title: "升崽の博客",
   description: "技术交流平台",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-  cleanUrls: true,
+  cleanUrls: false,
   ignoreDeadLinks: true,
   lastUpdated: true,
   // https://vitepress.dev/zh/reference/default-theme-config
