@@ -22,7 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+          fetch-depth: 0
+          package_manager: pnpm
       - uses: pnpm/action-setup@v3
       - name: Setup Node
         uses: actions/setup-node@v4
