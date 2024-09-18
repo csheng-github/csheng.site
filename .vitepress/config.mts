@@ -22,15 +22,22 @@ export default defineConfig({
     sidebar: {
       '/docs/vue3': [
         {
-          text: 'vue3 知识',
+          text: 'Vue3 知识',
           items: [
-            { text: 'TypeScript', link: '/docs/vue3/TypeScript' },
             { text: 'vue3', link: '/docs/vue3/vue3' },
+            { text: 'TypeScript', link: '/docs/vue3/TypeScript' },
             { text: 'Vue Router 4', link: '/docs/vue3/Vue Router 4' },
           ],
         },
         {
-          text: 'vue3 项目',
+          text: 'Vue3 组件库',
+          items: [
+            { text: 'Element Plus', link: '/docs/vue3/Element Plus' },
+            { text: 'Vant', link: '/docs/vue3/Vant' },
+          ],
+        },
+        {
+          text: 'Vue3 项目',
           items: [
             { text: '前期准备', link: '/docs/vue3/vue3 项目准备' },
             { text: '通用后台', link: '/docs/vue3/vue3 通用后台' },
