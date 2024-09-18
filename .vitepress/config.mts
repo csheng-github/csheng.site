@@ -17,9 +17,31 @@ export default defineConfig({
       { text: '素材', link: '/docs/prepare' },
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
-      { text: 'Vue3', link: '/docs/vue3/vue3' }
+      { text: 'Vue2', link: '/docs/vue2/人资/01.环境搭建' },
+      { text: 'Vue3', link: '/docs/vue3/vue3' },
     ],
     sidebar: {
+      '/docs/vue2': [
+        {
+          text: '大纲',
+          items: [
+            { text: '01.环境搭建', link: '/docs/vue2/人资/01.环境搭建' },
+            { text: '02.登录模块', link: '/docs/vue2/人资/02.登录模块' },
+            { text: '03.vue-cli配置接口代理转发', link: '/docs/vue2/人资/03.vue-cli配置接口代理转发' },
+            { text: '04.主页模块', link: '/docs/vue2/人资/04.主页模块' },
+            { text: '05.路由和页面', link: '/docs/vue2/人资/05.路由和页面' },
+            { text: '06.组织架构', link: '/docs/vue2/人资/06.组织架构' },
+            { text: '07.角色管理md', link: '/docs/vue2/人资/07.角色管理md' },
+            { text: '08.员工管理', link: '/docs/vue2/人资/08.员工管理' },
+            { text: '09.员工详情', link: '/docs/vue2/人资/09.员工详情' },
+            { text: '10.权限点管理', link: '/docs/vue2/人资/10.权限点管理' },
+            { text: '11.RBAC权限设计思想及权限实际应用', link: '/docs/vue2/人资/11.RBAC权限设计思想及权限实际应用' },
+            { text: '12.首页功能实现', link: '/docs/vue2/人资/12.首页功能实现' },
+            { text: '13.全屏-多语言', link: '/docs/vue2/人资/13.全屏-多语言' },
+            { text: '14.打包优化并发布', link: '/docs/vue2/人资/14.打包优化并发布' },
+          ],
+        },
+      ],
       '/docs/vue3': [
         {
           text: 'Vue3 知识',
