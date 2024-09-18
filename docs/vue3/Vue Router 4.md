@@ -854,3 +854,15 @@ router.addRoute({
 - router.getRoutes()：获取一个包含所有路由记录的数组。
 ```
 :::
+
+## TypeScript
+
+路由
+
+```ts
+import { type RouteRecordRaw } from "vue-router"
+
+export const constantRoutes: RouteRecordRaw[] = [
+    { ... } 
+]
+```
