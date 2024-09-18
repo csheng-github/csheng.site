@@ -897,3 +897,84 @@ export default defineConfig({
 ⚠️在 HTML 中无法正确渲染组件？
 
 答：单标签换为双标签。
+
+
+## echarts 图标（缩放保持一致）
+
+```html
+<script lang="ts" setup>
+import Rank from './components/rankView.vue'
+
+let screen = ref()
+
+function getScale(w = 1920, h = 1080) {
+  const ww = window.innerWidth / w
+  const wh = window.innerHeight / h
+  return ww < wh ? ww : wh
+}
+
+onMounted(() => {
+  screen.value.style.transform = `scale(${getScale()}) translate(-50%,-50%)`
+})
+
+window.onresize = () => {
+  screen.value.style.transform = `scale(${getScale()}) translate(-50%,-50%)`
+}
+</script>
+
+<template>
+  <div class="screen-page">
+    <div class="screen" ref="screen">
+      <div class="top"></div>
+      <div class="bottom">
+        <div class="left">left</div>
+        <div class="center">center</div>
+        <div class="right">
+          <Rank />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.screen-page {
+  width: 100vw;
+  height: 100vh;
+  background: url('@/assets/screen_bg.png') no-repeat;
+  background-size: cover;
+  .screen {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: left top;
+    .top {
+      width: 100%;
+      height: 40px;
+    }
+    .bottom {
+      display: flex;
+      .left {
+        flex: 1;
+        height: 1040px;
+        display: flex;
+        flex-direction: column;
+      }
+      .center {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+      }
+      .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+</style>
+```
