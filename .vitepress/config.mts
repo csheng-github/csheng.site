@@ -47,8 +47,9 @@ export default defineConfig({
           text: 'Vue3 知识',
           items: [
             { text: 'vue3', link: '/docs/vue3/vue3' },
-            { text: 'TypeScript', link: '/docs/vue3/TypeScript' },
             { text: 'Vue Router 4', link: '/docs/vue3/Vue Router 4' },
+            { text: 'TypeScript', link: '/docs/vue3/TypeScript' },
+            { text: 'Sass', link: '/docs/vue3/Sass' },
           ],
         },
         {
