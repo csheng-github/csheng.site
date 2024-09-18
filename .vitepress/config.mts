@@ -31,7 +31,7 @@ export default defineConfig({
             { text: '04.主页模块', link: '/docs/vue2/人资/04.主页模块' },
             { text: '05.路由和页面', link: '/docs/vue2/人资/05.路由和页面' },
             { text: '06.组织架构', link: '/docs/vue2/人资/06.组织架构' },
-            { text: '07.角色管理md', link: '/docs/vue2/人资/07.角色管理md' },
+            { text: '07.角色管理md', link: '/docs/vue2/人资/07.角色管理' },
             { text: '08.员工管理', link: '/docs/vue2/人资/08.员工管理' },
             { text: '09.员工详情', link: '/docs/vue2/人资/09.员工详情' },
             { text: '10.权限点管理', link: '/docs/vue2/人资/10.权限点管理' },
