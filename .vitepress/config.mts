@@ -17,9 +17,30 @@ export default defineConfig({
       { text: '素材', link: '/docs/prepare' },
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
+      {
+        text: 'Vue2', items: [
+          { text: 'iHRM人资后台管理', link: '/docs/vue2/iHRM人资后台管理/1-项目介绍及初始化-登录页面' }
+        ]
+      },
       { text: 'Vue3', link: '/docs/vue3/vue3' },
     ],
     sidebar: {
+      '/docs/vue2': [
+        {
+          text: '大纲',
+          items: [
+            { text: '1-项目介绍及初始化-登录页面', link: '/docs/vue2/iHRM人资后台管理/1-项目介绍及初始化-登录页面' },
+            { text: '2-登录模块-主页鉴权', link: '/docs/vue2/iHRM人资后台管理/2-登录模块-主页鉴权' },
+            { text: '3-主页模块-修改密码', link: '/docs/vue2/iHRM人资后台管理/3-主页模块-修改密码' },
+            { text: '4-组织架构', link: '/docs/vue2/iHRM人资后台管理/4-组织架构' },
+            { text: '5-组织架构-角色管理', link: '/docs/vue2/iHRM人资后台管理/5-组织架构-角色管理' },
+            { text: '6-角色管理-员工管理', link: '/docs/vue2/iHRM人资后台管理/6-角色管理-员工管理' },
+            { text: '7-员工管理-上传下载', link: '/docs/vue2/iHRM人资后台管理/7-员工管理-上传下载' },
+            { text: '9-权限应用-首页', link: '/docs/vue2/iHRM人资后台管理/9-权限应用-首页' },
+            { text: '10-首页图表-Nginx上线', link: '/docs/vue2/iHRM人资后台管理/10-首页图表-Nginx上线' },
+          ],
+        },
+      ],
       '/docs/vue3': [
         {
           text: 'Vue3 知识',
