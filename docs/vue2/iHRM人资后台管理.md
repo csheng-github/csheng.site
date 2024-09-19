@@ -45,9 +45,7 @@ git push -u origin main
 
 ## 2、登录页—结构和表单
 
-复制以下代码到 `login/index.vue`
-
-::: details 点我查看代码
+::: details 复制代码到 `login/index.vue`
 ```html
 <template>
   <div class="login-container">
@@ -175,3 +173,6 @@ export default {
 }
 </style>
 ```
+:::
+
+## 3、Vuex
