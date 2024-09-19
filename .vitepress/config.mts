@@ -17,7 +17,11 @@ export default defineConfig({
       { text: '素材', link: '/docs/prepare' },
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
-      { text: 'Vue2人资', link: '/docs/vue2/人资/01.环境搭建' },
+      {
+        text: 'Vue2', items: [
+          { text: '人资项目', link: '/docs/vue2/人资/01.环境搭建' }
+        ]
+      },
       { text: 'Vue3', link: '/docs/vue3/vue3' },
     ],
     sidebar: {

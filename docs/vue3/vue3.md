@@ -403,13 +403,20 @@ import ComponentA from './ComponentA.vue'
 **① Props（父传子）**
 
 ::: code-group
-```ts [Props声明]
+```ts [Props声明①]
 defineProps<{
   title?: string
   likes?: number
 }>()
 ```
-```ts [Props带默认值]
+```ts [Props声明②]
+interface Props {
+  title?: string
+  likes?: number
+}
+defineProps<Props>()
+```
+```ts [Props带默认值①]
 withDefaults(
   defineProps<{
     foo: string
@@ -420,6 +427,17 @@ withDefaults(
     bar: 18
   }
 )
+```
+```ts [Props带默认值②]
+interface Props {
+  foo: string
+  bar?: number
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  foo: 'hello',
+  bar: 18
+})
 ```
 :::
 
