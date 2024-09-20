@@ -19,7 +19,6 @@ export default defineConfig({
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
       {
         text: 'Vue2', items: [
-          { text: 'iHRM人资后台管理', link: '/docs/vue2/iHRM人资后台管理' }
         ]
       },
       { text: 'Vue3', link: '/docs/vue3/vue3' },
