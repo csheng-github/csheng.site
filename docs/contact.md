@@ -8,7 +8,7 @@
 
 ## 个人照片
 
-![个人照片](/logo.png)
+![个人照片](https://csheng-heisenberg.oss-cn-beijing.aliyuncs.com/CS.png)
 
 ## 爱好
 
