@@ -899,7 +899,7 @@ export default defineConfig({
 答：单标签换为双标签。
 
 
-## echarts 图标（缩放保持一致）
+## echarts 图表（缩放保持一致）
 
 ```html
 <script lang="ts" setup>
