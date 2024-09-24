@@ -13,17 +13,21 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     nav: [
-      { text: '首页', link: '/' },
       { text: '素材', link: '/docs/prepare' },
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
-      {
-        text: 'Vue2', items: [
-        ]
-      },
+      { text: 'Vue2', link: '/docs/vue2/vue2' },
       { text: 'Vue3', link: '/docs/vue3/vue3' },
     ],
     sidebar: {
+      '/docs/vue2': [
+        {
+          text: 'Vue2 知识',
+          items: [
+            { text: 'vue2', link: '/docs/vue2/vue2' },
+          ],
+        },
+      ],
       '/docs/vue3': [
         {
           text: 'Vue3 知识',
