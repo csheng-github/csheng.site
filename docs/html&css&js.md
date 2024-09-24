@@ -1,8 +1,20 @@
 # HTML & CSS & JavaScript
 
-## HTML
+## HTML & CSS
 
-## CSS
+### 善用 display: inline-block;
+
+当有一个图标+文本，我们希望内容宽度刚好是撑开的宽度，那么就用到了行内块
+
+```html
+<div class="container">
+  <i class="el-icon-info" />我是文本
+</div>
+
+.container {
+  display: inline-block;
+}
+```
 
 ### 阴影样式
 
