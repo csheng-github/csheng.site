@@ -62,9 +62,10 @@ git branch -r
 ## 拉取指定分支
 
 ```bash
-git clone -b template 地址 （template 是具体分支）
+git clone -b <指定分支名> <项目地址>
 
-git branch -m template main （修改分支名称）
+# 修改分支名称
+git branch -m <旧名称> <新名称>
 ```
 
 ## cherry 拉取指定分支
