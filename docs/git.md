@@ -27,11 +27,8 @@
 > 当在 `.gitignore` 新增已跟踪的文件，再次提交，发现还是会跟踪提交。
 
 ```html
-# 指定文件
-git rm --cached <filename>
-
-# 指定文件夹
-git rm --cached -r <directoryName>
+git rm --cached <文件名>
+git rm --cached -r <文件夹>
 ```
 
 ## 分支处理
