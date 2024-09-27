@@ -28,4 +28,3 @@ features:
     title: 爱好
     details: 打羽毛球、玩steam游戏、吃货
 ---
-
