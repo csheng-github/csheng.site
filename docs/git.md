@@ -37,10 +37,7 @@ git rm --cached -r <文件夹>
 # 修改分支名称
 git branch -m 新分支名称
 
-# 新建并切换分支
-git checkout -b 分支名
-
-# 删除分支（-D：强制）
+# 删除本地分支
 git branch -d 分支名
 git branch -D 分支名
 
@@ -48,12 +45,8 @@ git branch -D 分支名
 git push origin --delete 分支名
 git push origin :分支名
 
-# 确认远程分支是否已删除
-git remote -v
-
-# 查看远程仓库所有分支的列表
-git fetch --prune origin (移除远程未跟踪的分支）
-git branch -r
+# 同步删除本地缓存的远程分支
+git fetch --prune
 ```
 
 ## 拉取指定分支
