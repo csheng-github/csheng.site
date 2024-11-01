@@ -205,3 +205,9 @@ beforeDestroy() {
 ```
 
 :::
+
+### 检查对象是否存在指定方法
+
+```javascript
+Reflect.has(response.data, "code")
+```
