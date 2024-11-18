@@ -17,14 +17,14 @@ export default defineConfig({
       { text: 'Git', link: '/docs/git' },
       { text: 'HTML/CSS/JS', link: '/docs/html&css&js' },
       { text: 'Vue2', link: '/docs/vue2/vue2' },
-      { text: 'Vue3', link: '/docs/vue3/vue3' },
+      { text: 'Vue3', link: '/docs/vue3' },
     ],
     sidebar: {
       '/docs/vue2': [
         {
           text: 'Vue2 知识',
           items: [
-            { text: 'vue2', link: '/docs/vue2/vue2' },
+            { text: 'vue2', link: '/docs/vue2/vue2/TypeScript' },
           ],
         },
       ],
@@ -32,8 +32,6 @@ export default defineConfig({
         {
           text: 'Vue3 知识',
           items: [
-            { text: 'vue3', link: '/docs/vue3/vue3' },
-            { text: 'Vue Router 4', link: '/docs/vue3/Vue Router 4' },
             { text: 'TypeScript', link: '/docs/vue3/TypeScript' },
             { text: 'Sass', link: '/docs/vue3/Sass' },
           ],
