@@ -95,3 +95,9 @@ git branch -m <旧名称> <新名称>
 ```bash
 git cherry-pick hash值
 ```
+
+## 更新 package.json 插件
+
+```bash
+pnpm up -i -L
+```
